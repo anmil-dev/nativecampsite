@@ -42,7 +42,7 @@ const CampsiteInfoScreen = ({ route }) => {
                 <Rating
                     startingValue= {rating}
                     imageSize= { 10}
-                    style= {{alignItems: 'flexStart', paddingVertical: '5%' }}
+                    style= {{alignItems: 'flex-start', paddingVertical: '5%' }}
                     readonly
                 />
                 <Text style={{ fontSize: 12 }}> {` -- ${item.author}, ${item.date}`} </Text>
