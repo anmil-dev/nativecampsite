@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { View, Button, StyleSheet } from 'react-native';
-import { CheckBox, Input } from 'react-native-elements';
+import { View, StyleSheet } from 'react-native';
+import { Button, CheckBox, Input } from 'react-native-elements';
 import * as SecureStore from 'expo-secure-store';
 
 const LoginScreen = () => {
@@ -65,9 +65,10 @@ const LoginScreen = () => {
             />
             <View style={styles.formButton}>
                 <Button
+                    buttonStyle={{ backgroundColor: '#5637DD' }}
                     onPress={() => handleLogin()}
                     title='Login'
-                    color='#5637DD'
+                    color='#fff'
                 />
             </View>
         </View>
